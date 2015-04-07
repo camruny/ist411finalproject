@@ -8,7 +8,11 @@ package Main;
 /**
  *
  * @author Cameron
+<<<<<<< HEAD
  * @author Graeson
+=======
+ * @author Annie
+>>>>>>> origin/master
  */
 public class java {
 

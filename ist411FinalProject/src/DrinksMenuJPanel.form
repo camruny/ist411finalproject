@@ -27,26 +27,26 @@
                       <EmptySpace min="-2" pref="216" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="jButton1" min="-2" pref="150" max="-2" attributes="0"/>
+                              <Component id="coke" min="-2" pref="150" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jButton2" min="-2" pref="150" max="-2" attributes="0"/>
+                              <Component id="dietCoke" min="-2" pref="150" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jButton3" min="-2" pref="150" max="-2" attributes="0"/>
+                              <Component id="sprite" min="-2" pref="150" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jButton4" min="-2" pref="150" max="-2" attributes="0"/>
+                              <Component id="cokeZero" min="-2" pref="150" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jButton5" min="-2" pref="150" max="-2" attributes="0"/>
+                              <Component id="water" min="-2" pref="150" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="jButton6" min="-2" pref="150" max="-2" attributes="0"/>
+                              <Component id="fanta" min="-2" pref="150" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jButton7" min="-2" pref="150" max="-2" attributes="0"/>
+                              <Component id="rootBeer" min="-2" pref="150" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jButton8" min="-2" pref="150" max="-2" attributes="0"/>
+                              <Component id="powerade" min="-2" pref="150" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jButton9" min="-2" pref="150" max="-2" attributes="0"/>
+                              <Component id="mellowYellow" min="-2" pref="150" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jButton10" min="-2" pref="150" max="-2" attributes="0"/>
+                              <Component id="gingerAle" min="-2" pref="150" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -66,19 +66,19 @@
               <Component id="drinkMenuLabel" min="-2" max="-2" attributes="0"/>
               <EmptySpace pref="63" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jButton1" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
-                  <Component id="jButton2" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
-                  <Component id="jButton3" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
-                  <Component id="jButton4" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
-                  <Component id="jButton5" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
+                  <Component id="coke" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
+                  <Component id="dietCoke" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
+                  <Component id="sprite" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
+                  <Component id="cokeZero" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
+                  <Component id="water" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jButton6" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
-                  <Component id="jButton7" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
-                  <Component id="jButton8" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
-                  <Component id="jButton9" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
-                  <Component id="jButton10" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
+                  <Component id="fanta" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
+                  <Component id="rootBeer" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
+                  <Component id="powerade" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
+                  <Component id="mellowYellow" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
+                  <Component id="gingerAle" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
           </Group>
@@ -86,55 +86,55 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JButton" name="jButton1">
+    <Component class="javax.swing.JButton" name="coke">
       <Properties>
         <Property name="text" type="java.lang.String" value="Coke"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton2">
+    <Component class="javax.swing.JButton" name="dietCoke">
       <Properties>
         <Property name="text" type="java.lang.String" value="Diet Coke"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton3">
+    <Component class="javax.swing.JButton" name="sprite">
       <Properties>
         <Property name="text" type="java.lang.String" value="Sprite"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton4">
+    <Component class="javax.swing.JButton" name="cokeZero">
       <Properties>
         <Property name="text" type="java.lang.String" value="Coke Zero"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton5">
+    <Component class="javax.swing.JButton" name="water">
       <Properties>
         <Property name="text" type="java.lang.String" value="Water"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton6">
+    <Component class="javax.swing.JButton" name="fanta">
       <Properties>
         <Property name="text" type="java.lang.String" value="Fanta"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton7">
+    <Component class="javax.swing.JButton" name="rootBeer">
       <Properties>
         <Property name="text" type="java.lang.String" value="Root Beer"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton8">
+    <Component class="javax.swing.JButton" name="powerade">
       <Properties>
         <Property name="text" type="java.lang.String" value="Powerade"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton8ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="poweradeActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton9">
+    <Component class="javax.swing.JButton" name="mellowYellow">
       <Properties>
         <Property name="text" type="java.lang.String" value="Mellow Yellow"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton10">
+    <Component class="javax.swing.JButton" name="gingerAle">
       <Properties>
         <Property name="text" type="java.lang.String" value="Ginger Ale"/>
       </Properties>

@@ -3,21 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Main;
 
 /**
  *
  * @author Cameron
- * @author Graeson
- * @author Annie
  */
-public class java {
+public class Main {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // This is the beginning of our app
+        // TODO code application logic here
     }
     
 }

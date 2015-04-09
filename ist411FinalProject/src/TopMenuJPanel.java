@@ -26,19 +26,96 @@ public class TopMenuJPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        sandwiches = new javax.swing.JButton();
+        drinks = new javax.swing.JButton();
+        sides = new javax.swing.JButton();
+        topMenuLabel = new javax.swing.JLabel();
+
+        setPreferredSize(new java.awt.Dimension(1080, 600));
+
+        sandwiches.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        sandwiches.setText("Sandwiches");
+        sandwiches.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                sandwichesActionPerformed(evt);
+            }
+        });
+
+        drinks.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        drinks.setText("Drinks");
+        drinks.setToolTipText("");
+        drinks.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                drinksActionPerformed(evt);
+            }
+        });
+
+        sides.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        sides.setText("Sides");
+        sides.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                sidesActionPerformed(evt);
+            }
+        });
+
+        topMenuLabel.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
+        topMenuLabel.setText("New Order");
+        topMenuLabel.setFocusCycleRoot(true);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(149, 149, 149)
+                        .addComponent(sandwiches, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(sides, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(drinks, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(53, 53, 53)
+                        .addComponent(topMenuLabel)))
+                .addContainerGap(153, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(42, 42, 42)
+                .addComponent(topMenuLabel)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 75, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(sandwiches, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(sides, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(drinks, javax.swing.GroupLayout.PREFERRED_SIZE, 439, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(67, 67, 67))
         );
     }// </editor-fold>//GEN-END:initComponents
 
+    private void sandwichesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sandwichesActionPerformed
+        System.out.println("Sandwiches button pressed from topMenu");
+        this.setVisible(false);
+    }//GEN-LAST:event_sandwichesActionPerformed
+
+    private void drinksActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_drinksActionPerformed
+        System.out.println("Drinks button pressed from topMenu");
+        this.setVisible(false);
+        DrinksMenuJPanel dm = new DrinksMenuJPanel();
+        dm.setVisible(true);
+    }//GEN-LAST:event_drinksActionPerformed
+
+    private void sidesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sidesActionPerformed
+        System.out.println("Sides button pressed from topMenu");
+        this.setVisible(false);
+    }//GEN-LAST:event_sidesActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton drinks;
+    private javax.swing.JButton sandwiches;
+    private javax.swing.JButton sides;
+    private javax.swing.JLabel topMenuLabel;
     // End of variables declaration//GEN-END:variables
 }

@@ -26,78 +26,78 @@ public class ToppingsJPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        drinkMenuLabel = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
-        jButton9 = new javax.swing.JButton();
-        jButton10 = new javax.swing.JButton();
-        jButton11 = new javax.swing.JButton();
-        jButton12 = new javax.swing.JButton();
+        toppingsMenuLabel = new javax.swing.JLabel();
+        wheat = new javax.swing.JButton();
+        white = new javax.swing.JButton();
+        wholeGrain = new javax.swing.JButton();
+        cheeseLabel = new javax.swing.JLabel();
+        breadsLabel = new javax.swing.JLabel();
+        meatsLabel = new javax.swing.JLabel();
+        multiGrain = new javax.swing.JButton();
+        turkey = new javax.swing.JButton();
+        roastbeef = new javax.swing.JButton();
+        bologna = new javax.swing.JButton();
+        pepperJack = new javax.swing.JButton();
+        provolone = new javax.swing.JButton();
+        american = new javax.swing.JButton();
+        ham = new javax.swing.JButton();
+        swiss = new javax.swing.JButton();
 
         setPreferredSize(new java.awt.Dimension(1080, 600));
 
-        drinkMenuLabel.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
-        drinkMenuLabel.setText("Choose Your Toppings");
-        drinkMenuLabel.setFocusCycleRoot(true);
+        toppingsMenuLabel.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
+        toppingsMenuLabel.setText("Choose Your Toppings");
+        toppingsMenuLabel.setFocusCycleRoot(true);
 
-        jButton1.setText("Wheat");
-        jButton1.setPreferredSize(new java.awt.Dimension(90, 30));
+        wheat.setText("Wheat");
+        wheat.setPreferredSize(new java.awt.Dimension(90, 30));
 
-        jButton2.setText("White");
-        jButton2.setPreferredSize(new java.awt.Dimension(90, 30));
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        white.setText("White");
+        white.setPreferredSize(new java.awt.Dimension(90, 30));
+        white.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                whiteActionPerformed(evt);
             }
         });
 
-        jButton3.setText("Whole Grain");
-        jButton3.setPreferredSize(new java.awt.Dimension(90, 30));
+        wholeGrain.setText("Whole Grain");
+        wholeGrain.setPreferredSize(new java.awt.Dimension(90, 30));
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel1.setText("Cheese");
+        cheeseLabel.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        cheeseLabel.setText("Cheese");
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel2.setText("Breads");
+        breadsLabel.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        breadsLabel.setText("Breads");
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel3.setText("Meats");
+        meatsLabel.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        meatsLabel.setText("Meats");
 
-        jButton4.setText("Multi Grain");
-        jButton4.setPreferredSize(new java.awt.Dimension(90, 30));
+        multiGrain.setText("Multi Grain");
+        multiGrain.setPreferredSize(new java.awt.Dimension(90, 30));
 
-        jButton5.setText("Turkey");
-        jButton5.setPreferredSize(new java.awt.Dimension(90, 30));
+        turkey.setText("Turkey");
+        turkey.setPreferredSize(new java.awt.Dimension(90, 30));
 
-        jButton6.setText("Roast Beef");
-        jButton6.setPreferredSize(new java.awt.Dimension(90, 30));
+        roastbeef.setText("Roast Beef");
+        roastbeef.setPreferredSize(new java.awt.Dimension(90, 30));
 
-        jButton7.setText("Bologna");
-        jButton7.setPreferredSize(new java.awt.Dimension(90, 30));
+        bologna.setText("Bologna");
+        bologna.setPreferredSize(new java.awt.Dimension(90, 30));
 
-        jButton8.setText("Pepper Jack");
-        jButton8.setPreferredSize(new java.awt.Dimension(90, 30));
+        pepperJack.setText("Pepper Jack");
+        pepperJack.setPreferredSize(new java.awt.Dimension(90, 30));
 
-        jButton9.setText("Provolone");
-        jButton9.setPreferredSize(new java.awt.Dimension(90, 30));
+        provolone.setText("Provolone");
+        provolone.setPreferredSize(new java.awt.Dimension(90, 30));
 
-        jButton10.setText("American");
-        jButton10.setPreferredSize(new java.awt.Dimension(90, 30));
+        american.setText("American");
+        american.setPreferredSize(new java.awt.Dimension(90, 30));
 
-        jButton11.setText("Ham");
-        jButton11.setPreferredSize(new java.awt.Dimension(90, 30));
+        ham.setText("Ham");
+        ham.setPreferredSize(new java.awt.Dimension(90, 30));
 
-        jButton12.setText("Swiss");
-        jButton12.setPreferredSize(new java.awt.Dimension(90, 30));
+        swiss.setText("Swiss");
+        swiss.setPreferredSize(new java.awt.Dimension(90, 30));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -107,96 +107,96 @@ public class ToppingsJPanel extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(41, 41, 41)
-                        .addComponent(drinkMenuLabel))
+                        .addComponent(toppingsMenuLabel))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(94, 94, 94)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addGroup(layout.createSequentialGroup()
-                                    .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(white, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(wheat, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(multiGrain, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addComponent(jLabel1)
-                                .addComponent(jLabel3)
+                                    .addComponent(wholeGrain, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(cheeseLabel)
+                                .addComponent(meatsLabel)
                                 .addGroup(layout.createSequentialGroup()
-                                    .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(ham, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(turkey, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(roastbeef, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addComponent(jLabel2))
+                                    .addComponent(bologna, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(breadsLabel))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(american, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(provolone, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(pepperJack, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                .addComponent(swiss, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                 .addGap(248, 431, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(40, 40, 40)
-                .addComponent(drinkMenuLabel)
+                .addComponent(toppingsMenuLabel)
                 .addGap(54, 54, 54)
-                .addComponent(jLabel2)
+                .addComponent(breadsLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(white, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addComponent(jLabel3))
+                        .addComponent(meatsLabel))
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(wheat, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(wholeGrain, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(multiGrain, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(ham, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(turkey, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(roastbeef, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(bologna, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 23, Short.MAX_VALUE)
-                .addComponent(jLabel1)
+                .addComponent(cheeseLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(american, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(provolone, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pepperJack, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(swiss, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(192, 192, 192))
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void whiteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_whiteActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_whiteActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel drinkMenuLabel;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
+    private javax.swing.JButton american;
+    private javax.swing.JButton bologna;
+    private javax.swing.JLabel breadsLabel;
+    private javax.swing.JLabel cheeseLabel;
+    private javax.swing.JButton ham;
+    private javax.swing.JLabel meatsLabel;
+    private javax.swing.JButton multiGrain;
+    private javax.swing.JButton pepperJack;
+    private javax.swing.JButton provolone;
+    private javax.swing.JButton roastbeef;
+    private javax.swing.JButton swiss;
+    private javax.swing.JLabel toppingsMenuLabel;
+    private javax.swing.JButton turkey;
+    private javax.swing.JButton wheat;
+    private javax.swing.JButton white;
+    private javax.swing.JButton wholeGrain;
     // End of variables declaration//GEN-END:variables
 }

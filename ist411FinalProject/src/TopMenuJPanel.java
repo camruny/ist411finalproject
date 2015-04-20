@@ -10,6 +10,7 @@
  */
 public class TopMenuJPanel extends javax.swing.JPanel {
 
+    //OrderKioskJFrame orderKiosk = new OrderKioskJFrame();
     /**
      * Creates new form TopMenuJPanel
      */
@@ -101,9 +102,7 @@ public class TopMenuJPanel extends javax.swing.JPanel {
 
     private void drinksActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_drinksActionPerformed
         System.out.println("Drinks button pressed from topMenu");
-        this.setVisible(false);
-        DrinksMenuJPanel dm = new DrinksMenuJPanel();
-        dm.setVisible(true);
+        
     }//GEN-LAST:event_drinksActionPerformed
 
     private void sidesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sidesActionPerformed

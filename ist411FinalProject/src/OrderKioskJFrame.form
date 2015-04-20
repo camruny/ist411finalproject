@@ -25,15 +25,20 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="32767" attributes="0"/>
+              <Component id="drinksMenuJPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Component id="topMenuJPanel2" min="-2" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
+          <Group type="102" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="topMenuJPanel2" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="topMenuJPanel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="drinksMenuJPanel1" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
               <EmptySpace pref="31" max="32767" attributes="0"/>
           </Group>
       </Group>
@@ -41,6 +46,13 @@
   </Layout>
   <SubComponents>
     <Component class="TopMenuJPanel" name="topMenuJPanel2">
+    </Component>
+    <Component class="DrinksMenuJPanel" name="drinksMenuJPanel1">
+      <Properties>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[0, 0]"/>
+        </Property>
+      </Properties>
     </Component>
   </SubComponents>
 </Form>

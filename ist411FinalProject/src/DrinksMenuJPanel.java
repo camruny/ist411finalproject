@@ -127,7 +127,7 @@ public class DrinksMenuJPanel extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void poweradeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_poweradeActionPerformed
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_poweradeActionPerformed
 
 

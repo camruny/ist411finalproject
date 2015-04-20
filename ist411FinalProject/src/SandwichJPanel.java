@@ -8,12 +8,12 @@
  *
  * @author Cameron
  */
-public class ToppingsJPanel extends javax.swing.JPanel {
+public class SandwichJPanel extends javax.swing.JPanel {
 
     /**
      * Creates new form ToppingsJPanel
      */
-    public ToppingsJPanel() {
+    public SandwichJPanel() {
         initComponents();
     }
 
@@ -177,7 +177,7 @@ public class ToppingsJPanel extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void whiteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_whiteActionPerformed
-        // TODO add your handling code here:
+        //
     }//GEN-LAST:event_whiteActionPerformed
 
 
@@ -199,4 +199,8 @@ public class ToppingsJPanel extends javax.swing.JPanel {
     private javax.swing.JButton white;
     private javax.swing.JButton wholeGrain;
     // End of variables declaration//GEN-END:variables
+
+
+//Action pepperJack is pressed
+    //
 }

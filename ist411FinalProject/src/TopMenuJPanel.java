@@ -108,6 +108,7 @@ public class TopMenuJPanel extends javax.swing.JPanel {
     private void sidesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sidesActionPerformed
         System.out.println("Sides button pressed from topMenu");
         this.setVisible(false);
+        
     }//GEN-LAST:event_sidesActionPerformed
 
 

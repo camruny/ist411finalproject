@@ -6,6 +6,9 @@
       <Dimension value="[1080, 600]"/>
     </Property>
   </Properties>
+  <Events>
+    <EventHandler event="hierarchyChanged" listener="java.awt.event.HierarchyListener" parameters="java.awt.event.HierarchyEvent" handler="formHierarchyChanged"/>
+  </Events>
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
     <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
@@ -57,22 +60,14 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
               <Component id="sidesMenuLabel" min="-2" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="dietCoke" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
-                          <Component id="sprite" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
-                          <Component id="cokeZero" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="coke" min="-2" pref="150" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
-                  </Group>
+              <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="dietCoke" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
+                  <Component id="sprite" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
+                  <Component id="cokeZero" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
+                  <Component id="coke" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
               </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="fanta" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
                   <Component id="rootBeer" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
